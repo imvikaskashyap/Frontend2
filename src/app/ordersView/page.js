@@ -7,6 +7,7 @@ const OrdersView = () => {
     <ProtectedRoute allowedRoles={["employee1", "employee2"]}>
       <DefaultLayout>
         <h1>Orders View Page</h1>
+      
       </DefaultLayout>
     </ProtectedRoute>
   );

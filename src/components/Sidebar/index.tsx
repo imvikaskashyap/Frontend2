@@ -88,6 +88,15 @@ const menuGroups = [
         //   { label: "Tables", route: "/tables" },
         // ],
       },
+      {
+        icon: <Rows4 /> ,
+        label: "PO Form",
+        route: "/purchase",
+        allowedRoles: ["employee1", "employee2", "admin"],
+        // children: [
+        //   { label: "Tables", route: "/tables" },
+        // ],
+      },
     ],
   },
 ];

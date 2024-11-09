@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/Auth/SigninWithPassword.jsx", "src/app/idPassGenerate/page.js", "src/app/allEmployees/page.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/Auth/SigninWithPassword.jsx", "src/app/idPassGenerate/page.js", "src/app/allEmployees/page.js", "src/app/createOrderForm/page.js"],
   "exclude": ["node_modules"]
 }
